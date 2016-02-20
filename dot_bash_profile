@@ -1,0 +1,34 @@
+# source the users bashrc if it exists
+if [[ -s "${HOME}/.bashrc" ]] ; then
+  source "${HOME}/.bashrc"
+fi
+
+if [[ -s "${HOME}/.git-prompt.sh" ]]; then
+  source "${HOME}/.git-prompt.sh"
+fi
+
+if [[ -x `which dircolors 2> /dev/null`  ]]; then
+  ([[ -s "$HOME/.dircolors"  ]] && eval "$(dircolors -b $HOME/.dircolors)") || eval "$(dircolors -b)"
+fi
+
+export CLICOLOR=1
+export EDITOR="vim"
+export HISTCONTROL=ignoredups:ignorespace
+unset command_not_found_handle
+
+stty sane
+tput init
+shopt -s checkwinsize
+
+[[ -s "${HOME}/.bash_prompt" ]] && source "${HOME}/.bash_prompt"
+[[ -s "${HOME}/.bash_alias" ]] && source "${HOME}/.bash_alias"
+[[ -s "${HOME}/.bash_local" ]] && source "${HOME}/.bash_local"
+
+# Build up the path
+[[ -d "$HOME/.local/bin" ]] && PATH=$HOME/.local/bin:$PATH
+[[ -d "$HOME/.local/rust/bin" ]] && PATH=$HOME/.local/rust/bin:$PATH
+
+# Make sure our local/lib is in LD_LIBRARY_PATH
+[[ -d "$HOME/.local/lib" ]] && LD_LIBRARY_PATH=$HOME/.local/lib:$LD_LIBRARY_PATH
+
+export PATH LD_LIBRARY_PATH

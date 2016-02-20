@@ -1,0 +1,1 @@
+alias ls="ls -G --color=always -I NTUSER.DAT\* -I ntuser.\* -I desktop.ini"
