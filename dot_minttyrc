@@ -1,5 +1,5 @@
 BoldAsFont=no
-CursorType=line
+CursorType=block
 FontHeight=10
 Locale=en_US
 Charset=UTF-8
@@ -18,3 +18,5 @@ Term=xterm-256color
 BellType=0
 Font=InputMono
 BoldAsColour=yes
+Transparency=off
+OpaqueWhenFocused=no
