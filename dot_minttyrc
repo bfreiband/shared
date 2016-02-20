@@ -1,4 +1,4 @@
-BoldAsFont=yes
+BoldAsFont=no
 CursorType=line
 FontHeight=10
 Locale=en_US
@@ -16,3 +16,5 @@ ScrollbackLines=2000
 Scrollbar=none
 Term=xterm-256color
 BellType=0
+Font=InputMono
+BoldAsColour=yes
