@@ -1,1 +1,3 @@
-alias ls="ls -G --color=always -I NTUSER.DAT\* -I ntuser.\* -I desktop.ini"
+unset __git_ps1
+alias ls="ls -G --group-directories-first --color=auto -I NTUSER.DAT\* -I ntuser.\* -I desktop.ini"
+alias tmux="rm -r /tmp/tmux-*; tmux"

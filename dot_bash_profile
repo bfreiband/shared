@@ -20,9 +20,9 @@ stty sane
 tput init
 shopt -s checkwinsize
 
-[[ -s "${HOME}/.bash_prompt" ]] && source "${HOME}/.bash_prompt"
 [[ -s "${HOME}/.bash_alias" ]] && source "${HOME}/.bash_alias"
 [[ -s "${HOME}/.bash_local" ]] && source "${HOME}/.bash_local"
+[[ -s "${HOME}/.bash_prompt" ]] && source "${HOME}/.bash_prompt"
 
 # Build up the path
 [[ -d "$HOME/.local/bin" ]] && PATH=$HOME/.local/bin:$PATH
