@@ -2,6 +2,7 @@
 Cmder/*
 Cmder/**/*
 !Cmder/config/*
+Cmder/config/*.swp
 Cmder/config/.history
 Cmder/vendor/*
 !Cmder/vendor/conemu-maximus5/testing
