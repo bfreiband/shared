@@ -1,5 +1,6 @@
 *.swp
 Cmder/**
 !Cmder/config/**
+Cmder/config/.history
 !Cmder/vendor/conemu-maximus5/ConEmu.xml
 !Cmder/vendor/init-lori.bat

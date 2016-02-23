@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2016-02-22 19:04:29" build="160222">
-			<value name="ColorTable00" type="dword" data="00141414"/>
+		<key name=".Vanilla" modified="2016-02-22 21:23:07" build="160222">
+			<value name="ColorTable00" type="dword" data="00000000"/>
 			<value name="ColorTable01" type="dword" data="00c17857"/>
 			<value name="ColorTable02" type="dword" data="0067a996"/>
 			<value name="ColorTable03" type="dword" data="00f3b56e"/>
@@ -127,15 +127,15 @@
 			<value name="ConWnd Width" type="dword" data="00000064"/>
 			<value name="ConWnd Height" type="dword" data="00000028"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="long" data="985"/>
-			<value name="ConWnd Y" type="long" data="356"/>
+			<value name="ConWnd X" type="long" data="730"/>
+			<value name="ConWnd Y" type="long" data="315"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="AutoSaveSizePos" type="hex" data="00"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="QuakeAnimation" type="ulong" data="300"/>
 			<value name="HideCaption" type="hex" data="00"/>
-			<value name="HideChildCaption" type="hex" data="01"/>
+			<value name="HideChildCaption" type="hex" data="00"/>
 			<value name="FocusInChildWindows" type="hex" data="01"/>
 			<value name="HideCaptionAlways" type="hex" data="00"/>
 			<value name="HideCaptionAlwaysFrame" type="hex" data="00"/>
@@ -276,7 +276,7 @@
 			<value name="ShowFarWindows" type="hex" data="00"/>
 			<value name="TryToCenter" type="hex" data="01"/>
 			<value name="CenterConsolePad" type="ulong" data="0"/>
-			<value name="ShowScrollbar" type="hex" data="01"/>
+			<value name="ShowScrollbar" type="hex" data="00"/>
 			<value name="ScrollBarAppearDelay" type="ulong" data="100"/>
 			<value name="ScrollBarDisappearDelay" type="ulong" data="1000"/>
 			<value name="IconID" type="ulong" data="1"/>
@@ -483,9 +483,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2016-02-22 19:04:29" build="160222">
+			<key name="Tasks" modified="2016-02-22 21:23:07" build="160222">
 				<value name="Count" type="long" data="4"/>
-				<key name="Task1" modified="2016-02-22 19:04:29" build="160222">
+				<key name="Task1" modified="2016-02-22 21:23:07" build="160222">
 					<value name="Name" type="string" data="{cmd}"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
 					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init-lori.bat&quot;  -new_console:d:%USERPROFILE%"/>
@@ -494,7 +494,7 @@
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task2" modified="2016-02-22 19:04:29" build="160222">
+				<key name="Task2" modified="2016-02-22 21:23:07" build="160222">
 					<value name="Name" type="string" data="{cmd as Admin}"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
 					<value name="Cmd1" type="string" data="*cmd /k &quot;%ConEmuDir%\..\init-lori.bat&quot;  -new_console:d:%USERPROFILE%"/>
@@ -503,7 +503,7 @@
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task3" modified="2016-02-22 19:04:29" build="160222">
+				<key name="Task3" modified="2016-02-22 21:23:08" build="160222">
 					<value name="Name" type="string" data="{PowerShell}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
@@ -512,7 +512,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task4" modified="2016-02-22 19:04:29" build="160222">
+				<key name="Task4" modified="2016-02-22 21:23:08" build="160222">
 					<value name="Name" type="string" data="{PowerShell as Admin}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
@@ -524,11 +524,11 @@
 				</key>
 			</key>
 
-			<key name="Apps" modified="2016-02-22 19:04:29" build="160222">
+			<key name="Apps" modified="2016-02-22 21:23:08" build="160222">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2016-02-22 19:04:29" build="160222">
-				<key name="Palette1" modified="2016-02-22 19:04:29" build="160222">
+			<key name="Colors" modified="2016-02-22 21:23:08" build="160222">
+				<key name="Palette1" modified="2016-02-22 21:23:08" build="160222">
 					<value name="Name" type="string" data="Jellybeans"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -611,7 +611,7 @@
 					<value name="ColorTable30" type="dword" data="0000ffff"/>
 					<value name="ColorTable31" type="dword" data="00ffffff"/>
 				</key>
-				<key name="Palette2" modified="2016-02-22 19:04:29" build="160222">
+				<key name="Palette2" modified="2016-02-22 21:23:08" build="160222">
 					<value name="Name" type="string" data="Lori"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -652,7 +652,7 @@
 					<value name="ColorTable30" type="dword" data="0000ffff"/>
 					<value name="ColorTable31" type="dword" data="00ffffff"/>
 				</key>
-				<key name="Palette3" modified="2016-02-22 19:04:29" build="160222">
+				<key name="Palette3" modified="2016-02-22 21:23:08" build="160222">
 					<value name="Name" type="string" data="Monokai"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -752,7 +752,7 @@
 			<value name="StatusBar.Hide.Dpi" type="hex" data="00"/>
 			<value name="TabFlashChanged" type="long" data="8"/>
 			<value name="TabModifiedSuffix" type="string" data="[*]"/>
-			<key name="HotKeys" modified="2016-02-22 19:04:29" build="160222">
+			<key name="HotKeys" modified="2016-02-22 21:23:07" build="160222">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -947,7 +947,7 @@
 			<value name="Update.InetToolCmd" type="string" data=""/>
 			<value name="ProcessCtrlZ" type="hex" data="00"/>
 			<value name="SuppressBells" type="hex" data="01"/>
-			<value name="LastMonitor" type="string" data="93,0,1920,1080"/>
+			<value name="LastMonitor" type="string" data="62,0,1920,1080"/>
 			<value name="Anti-aliasing2" type="hex" data="00"/>
 		</key>
 	</key>
