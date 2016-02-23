@@ -1,0 +1,1581 @@
+alias
+ls
+alias
+ls
+vim
+:q
+ag
+echo %path%
+dir C:\Dev\msys64\ming64\bin
+ls
+ag
+vim
+ls
+echo %path%
+dir C:\Dev\msys64\ming64\bin
+ls
+ag
+ls
+chcp
+chcp /?
+chcp 1251
+chcp 437
+echo %COMEMUBUILD
+echo %COMEMUBUILD%
+set comemubuild
+set
+set conemubuild
+vim
+exit
+tcc
+help
+exit
+help
+dir
+tcc
+dir /?
+tcc
+vim
+dir
+dir /?
+dir /D /OG 
+dir /D /OG /B
+ls
+dir
+dir /D /OG /B
+dirl
+dir
+ls
+which vim
+vim
+chcp
+ag
+ls
+chcp
+chcp /?
+chcp 1251
+chcp 437
+echo %COMEMUBUILD
+echo %COMEMUBUILD%
+set comemubuild
+set
+set conemubuild
+vim
+exit
+tcc
+help
+exit
+help
+dir
+tcc
+dir /?
+tcc
+vim
+dir
+dir /?
+dir /D /OG 
+dir /D /OG /B
+ls
+dir
+dir /D /OG /B
+dirl
+dir
+which vim
+chcp
+cd \dev\vim
+less _vimrc
+cd vimfiles
+vi,
+set term
+set term=xterm-256color
+vim dot_vimrc
+gvim dot_vimrc
+which gvim
+cd \Users\Lori\Projects\
+ls
+cd dot_vim
+ag -l .
+gvim init.vim 
+ag --vimgrep -l .
+alias
+unalias vim
+alias vim=vim
+vim
+alias vim=gvim
+gvim
+winpty C:\dev\vim\vim74\vim.exe
+alias vim=gvim
+gvim
+winpty C:\dev\vim\vim74\vim.exe
+cd Projects\
+cd dot_vim
+ls /
+cd ..
+ls
+cd game_prep
+cargo build
+echo %username%
+help prompt
+echo %os%
+echo %userdomain%
+help prompt
+echo %os%
+echo %userdomain%
+ls /
+dir
+cd Projects\dot_vim
+ls
+ls
+ls
+ls
+dfgsdfg
+vim
+gvim
+ls
+exit
+gvim
+cd Projects\
+ls
+rustup.sh --help
+bash .\rustup.sh --help
+bash .\rustup.sh --prefix=C:\Dev\Rust --disable-sudo --disable-ldconfig
+bash .\rustup.sh --prefix=C:\Dev\Rust --disable-sudo --disable-ldconfig --channel=nightly
+ls
+dfgsdfg
+gvim
+ls
+exit
+rustup.sh --help
+bash .\rustup.sh --help
+bash .\rustup.sh --prefix=C:\Dev\Rust --disable-sudo --disable-ldconfig
+alias
+cd Projects\
+bash .\rustup.sh --prefix=C:\Dev\Rust --disable-sudo --disable-ldconfig --channel=nightly
+bash .\rustup.sh --prefix=/c/Dev/Rust --disable-sudo --disable-ldconfig --channel=nightly
+which rustc
+cd game_prep
+gvim
+cargo build --release
+strip target\release\game_prep.exe 
+strip *.exe
+ls -l *.exe target\release\game_prep.exe 
+rm *.exe
+ls
+cargo run
+cargo run --release
+vim
+rustc --version
+cargo clean
+cargo update
+cargo build
+which vim
+set path
+set GIT_INSTALL_ROOT
+set path
+set path
+cargo clean
+cargo update
+cargo build
+set path
+set GIT_INSTALL_ROOT
+set path
+set path
+gvim
+which vim
+dir c:\dev\bin
+dir \
+alias dir=dir /D /OG $*
+alias  dirl=dir /OG $*
+ls \
+ls /
+dir
+dir C:\Dev\Bin
+vim.bat
+alias vim=
+alias vim= 
+unalias vim
+alias
+vim
+bash .\rustup.sh --prefix=/c/Dev/Rust --disable-sudo --disable-ldconfig --channel=nightly
+which rustc
+gvim
+cargo build --release
+strip target\release\game_prep.exe 
+strip *.exe
+ls -l *.exe target\release\game_prep.exe 
+rm *.exe
+cargo run
+cargo run --release
+vim
+rustc --version
+cargo clean
+cargo update
+cargo build
+which vim
+set path
+set GIT_INSTALL_ROOT
+set path
+set path
+cargo clean
+cargo update
+cargo build
+set path
+set GIT_INSTALL_ROOT
+set path
+set path
+which vim
+dir c:\dev\bin
+dir \
+alias dir=dir /D /OG $*
+alias  dirl=dir /OG $*
+dir
+dir C:\Dev\Bin
+vim.bat
+alias vim=
+alias vim= 
+unalias vim
+alias
+gvim C:\Dev\vim\vimfiles\init.vim 
+vim
+cd Projects\
+cd game_prep
+ls 
+ls \
+gvim
+ls /
+vim src\main.rs 
+cd ..
+cd stargale_src
+gvim StarGale\Engine.cpp
+set conemuansi
+ls
+vim StarGale\Engine.cpp
+set conemuansi
+ls
+cd Projects\game_prep\
+cd ../
+cd stargale_src\
+vim StarGale\Engine.cpp
+cd stargale_src\
+vim StarGale\Engine.cpp
+cd Projects\
+cd stargale
+cd ..
+cd stargale_src
+ls
+cd ..
+cd stargale_src
+cd Projects\
+ls
+vim StarGale\Engine.cpp
+cd stargale_src\
+vim StarGale\Engine.cpp
+cd Projects\
+cd stargale
+cd ..
+cd stargale_src
+ls
+cd ..
+cd Projects\
+cd stargale_src
+dir C:\Users\Lori\Desktop\
+cat "C:\Users\Lori\Desktop\ANSI Prompt Colours.txt" 
+ls ..\..
+ls c:
+ls \
+ls /
+ls C:\
+ls
+ls StarGale\
+vim main.cpp
+vim StarGale\Engine.cpp
+cd Projects\
+cd stargale
+cd ..
+cd stargale_src
+ls
+cd ..
+dir C:\Users\Lori\Desktop\
+cat "C:\Users\Lori\Desktop\ANSI Prompt Colours.txt" 
+ls ..\..
+ls c:
+ls \
+ls /
+ls C:\
+ls StarGale\
+vim main.cpp
+cd Projects\
+cd stargale_src
+ls
+vim StarGale\Engine.
+gvim StarGale\Engine.cpp
+vim StarGale\Engine.cpp 
+set path
+gvim StarGale\Engine.cpp
+vim StarGale\Engine.cpp 
+cd Projects\
+cd stargale_src
+ls
+vim StarGale\Engine.cpp
+set path
+set path
+vim StarGale\Engine.cpp
+set path
+set path
+python
+cd \Dev\Python34\
+cd Scripts\
+cd ..
+ls
+ls -l
+ls -la
+set path
+gvim StarGale\Engine.cpp
+vim StarGale\Engine.cpp 
+cd Projects\
+cd stargale_src
+ls
+vim StarGale\Engine.cpp
+set path
+set path
+vim StarGale\Engine.cpp
+set path
+set path
+python
+cd ..
+mklink
+ln
+cd \Dev\Python34\
+ls Scripts\
+ln -s python.exe python.3.4.exe
+mv python.3.4.exe python3.4.exe
+rm python3.4.exe 
+rm python3.exe 
+rm pythonw3.exe 
+set MSYS=winsymlinks:nativestrict
+ln -s python.exe python3.4.exe
+ln -s pythonw.exe pythonw3.exe
+ln -s python.exe python3.exe
+ln -s pythonw.exe pythonw3.4.exe
+ls -l
+cd Scripts\
+ls -la
+rm pip3.exe
+rm pip3.4.exe 
+ln -s pip.exe pip3.exe
+ln -s pip.exe pip3.4.exe
+rm easy_install-3.4.exe 
+ln -s easy_install.exe easy_install-3.4.exe 
+ls
+python
+which python
+which python3
+which ruby
+vim StarGale\Engine.cpp 
+cd stargale_src
+ls
+vim StarGale\Engine.cpp
+set path
+set path
+vim StarGale\Engine.cpp
+set path
+set path
+python
+mklink
+ln
+cd \Dev\Python34\
+ls Scripts\
+ln -s python.exe python.3.4.exe
+mv python.3.4.exe python3.4.exe
+rm python3.4.exe 
+rm python3.exe 
+rm pythonw3.exe 
+set MSYS=winsymlinks:nativestrict
+ln -s python.exe python3.4.exe
+ln -s pythonw.exe pythonw3.exe
+ln -s python.exe python3.exe
+ln -s pythonw.exe pythonw3.4.exe
+ls -l
+cd Scripts\
+ls -la
+rm pip3.exe
+rm pip3.4.exe 
+ln -s pip.exe pip3.exe
+ln -s pip.exe pip3.4.exe
+rm easy_install-3.4.exe 
+ln -s easy_install.exe easy_install-3.4.exe 
+python
+which python
+which python3
+which ruby
+cd Projects\dot_vim
+ag
+cd C:\Dev\vim
+cd vimfiles
+ls plugin
+rm -r plugin
+ls autoload\
+ls colors\
+ls compiler\
+rm -r colors compiler\
+ls indent\
+rm -r indent keymap syntax ftdetect ftplugin doc
+rm autoload\plug.vim.old 
+cd ~/
+cd ~\
+cd %homepath%
+cd %home%
+cd Projects\
+ag -l .
+git add autoload\plug.vim
+git add autoload/plug.vim
+git diff init.vim
+git add init.vim
+git diff plugins.vim
+git add plugins.vim
+git config --global user.email "email@loriholden.com"
+git config --global user.name "Lori Holden"
+echo %editor%
+set editor
+set editor=c:\dev\bin\gvim.bat
+git commit 
+git commit -m "support cmder and added airline themes"
+git push
+git config --global push.default simple
+clear
+ls C:DevRust
+rm -r C:DevRust
+cd dot_vim
+gvim
+which gvim
+ag --help
+vim init.vim 
+ag --vimgrep -l .
+cd ..
+cd the_silver_searcher\
+ls
+git status
+.\ag.exe 
+.\ag.exe -l .
+vim
+find .
+find
+find --help
+man find
+cd C:\dev\bin
+vim find.bat
+which find
+exit
+vim find.bat
+which find
+which find.bat
+find.bat
+cd Projects\
+ls
+cd dot_vim
+find
+vim
+exit
+cd vimfiles
+ls plugin
+rm -r plugin
+ls autoload\
+ls colors\
+ls compiler\
+rm -r colors compiler\
+ls indent\
+rm -r indent keymap syntax ftdetect ftplugin doc
+rm autoload\plug.vim.old 
+cd ~/
+cd ~\
+cd %homepath%
+cd %home%
+cd Projects\
+git add autoload\plug.vim
+git add autoload/plug.vim
+git diff init.vim
+git add init.vim
+git diff plugins.vim
+git add plugins.vim
+git config --global user.email "email@loriholden.com"
+git config --global user.name "Lori Holden"
+echo %editor%
+set editor
+set editor=c:\dev\bin\gvim.bat
+git commit 
+git commit -m "support cmder and added airline themes"
+git push
+git config --global push.default simple
+clear
+ls C:DevRust
+rm -r C:DevRust
+cd dot_vim
+which gvim
+ag --help
+ag --vimgrep -l .
+cd the_silver_searcher\
+ls
+git status
+.\ag.exe 
+.\ag.exe -l .
+vim
+find .
+find
+find --help
+man find
+cd C:\dev\bin
+vim find.bat
+which find
+exit
+vim find.bat
+which find
+which find.bat
+find.bat
+find
+sl
+which ag
+pt .
+pt --help
+pt /g:
+pt /g:.
+pt ''
+pt /vsc_ignore
+ag -l .
+pg
+pg -l .
+ps
+which pg
+pt -i unite
+pt /vcs-ignore:.gitignore -l .
+cat .gitignore 
+pt /vcs-ignore:.gitignore unite
+vim .gitignore 
+ls -al %homepath%
+dir \
+cd gocode
+cd \dev\go
+dir
+set goroot
+set gopath
+set gopath=C:\Dev\Go\src
+ls src
+cd github.com\
+cd monochromegane\
+cd the_platinum_searcher\
+cd C:\Dev\Go
+cd bin
+.\Pt.exe
+pt
+rm /c/Dev/Bin/pt.exe
+which pt
+pt -l
+cd ..
+cd C:\Users\
+cd -
+cd \Dev\Go
+cd src
+cd ..\bin
+ls -a
+cd \Home\Lori
+cd C:\Home\Lori
+cd C:\Users\Lori
+cd Projects\
+ls
+cd dot_vim
+pt -l .
+vim init.vim 
+vim
+gvim
+echo $EDITOR
+echo %EDITOR%
+path editor
+set editor=/c/Dev/Bin/gvim.bat
+%editor%
+git
+which git
+exit
+which find
+which find.bat
+find.bat
+find
+sl
+which ag
+pt .
+pt /g:
+pt /g:.
+pt ''
+pt /vsc_ignore
+ag -l .
+pg
+pg -l .
+ps
+which pg
+pt -i unite
+pt /vcs-ignore:.gitignore -l .
+cat .gitignore 
+pt /vcs-ignore:.gitignore unite
+vim .gitignore 
+ls -al %homepath%
+dir \
+cd gocode
+cd \dev\go
+dir
+set goroot
+set gopath
+set gopath=C:\Dev\Go\src
+ls src
+cd github.com\
+cd monochromegane\
+cd the_platinum_searcher\
+cd C:\Dev\Go
+cd bin
+.\Pt.exe
+rm /c/Dev/Bin/pt.exe
+which pt
+pt -l
+cd C:\Users\
+cd -
+cd \Dev\Go
+cd src
+cd ..\bin
+ls -a
+cd \Home\Lori
+cd C:\Home\Lori
+cd C:\Users\Lori
+vim init.vim 
+echo $EDITOR
+echo %EDITOR%
+path editor
+set editor=/c/Dev/Bin/gvim.bat
+%editor%
+which git
+set editor
+set editor=/c/Dev/bin/git.bat
+git
+cd Projects\
+git checkout .gitignore 
+git diff init.vim
+pt -l .
+pt
+pt --help
+git add init.vim
+git add keybinds.vim
+git --help
+set git_editor=/c/Dev/bin/git.bat
+get config --global core.editor "C:\Dev\Bin\gvim.bat"
+git config --global core.editor "C:\Dev\Bin\gvim.bat"
+git config --global core.editor "/c/Dev/Bin/gvim.bat"
+clear
+gvim --help
+git config --global core.editor "/c/Dev/Bin/gvim.bat --nofork"
+gvim -f
+git config --global core.editor "/c/Dev/Bin/gvim.bat -f"
+git commit
+cd game_prep
+rm -r target
+cargo build
+cd ..
+cd dot_vim
+gvim
+ls
+ls \
+ls /
+ls ~/
+git status
+vim
+exit
+ls /
+ls ~/
+git status
+exit
+cd Projects\
+cd dot_vim
+ls
+vim
+clear
+ansicon --help
+ansicon - vim
+ansicon vim
+vim
+ansicon vim
+ansicon C:\Dev\Bin\vim.bat
+ansicon -u
+vim --help
+git config --global core.editor "/c/Dev/Bin/gvim.bat --nofork"
+gvim -f
+git config --global core.editor "/c/Dev/Bin/gvim.bat -f"
+rm -r target
+cargo build
+cd dot_vim
+ls
+ls \
+ls /
+ls ~/
+git status
+vim
+exit
+ls /
+ls ~/
+exit
+vim
+clear
+ansicon --help
+ansicon - vim
+ansicon vim
+ansicon vim
+ansicon C:\Dev\Bin\vim.bat
+ansicon -u
+vim --help
+cd Projects\
+cd game_prep
+cd ..
+cd dot_vim
+git pull
+gvim
+vim keybinds.vim 
+git add init.vim 
+git add keybinds.vim 
+git diff origin/master
+git config
+git config --global
+git config --global user.editor
+git config --global --get-all
+git config --global core.editor=/c/Dev/Bin/vim.bat -f
+git config --global core.editor="/c/Dev/Bin/vim.bat -f"
+git config --global core.editor "/c/Dev/Bin/vim.bat -f"
+git config --global --unset bin/vim
+git config --global --unset bin/vim*
+git config --global --unset bin/vim\*
+git config --global --unset \*bin/vim\*
+git config --global --unset core.editor
+git config --global --unset core.editor=/c/Dev/Bin/vim.bat
+git config --global core.editor "/c/Dev/Bin/vim.bat"
+git config --global -l
+git commit
+echo .
+echo.
+edit C:\Dev\Bin\vim.bat
+vim init.vim 
+dos2unix C:\Dev\Bin\vim.bat
+unix2dos C:\Dev\Bin\vim.bat
+git status
+git diff
+git checkout init.vim
+vim C:\Dev\Bin\vim.bat
+vim test
+less init.vim 
+:e plugins.vim 
+vim plugins.vim 
+ls
+vim
+git push
+vim
+exit
+vim
+exit
+clink autorun show
+clink install
+clink help
+clink autorun --help
+clink autorun uninstall
+git config --global core.editor "/c/Dev/Bin/vim.bat -f"
+git config --global --unset bin/vim
+git config --global --unset bin/vim*
+git config --global --unset bin/vim\*
+git config --global --unset \*bin/vim\*
+git config --global --unset core.editor
+git config --global --unset core.editor=/c/Dev/Bin/vim.bat
+git config --global core.editor "/c/Dev/Bin/vim.bat"
+git config --global -l
+git commit
+echo .
+echo.
+edit C:\Dev\Bin\vim.bat
+dos2unix C:\Dev\Bin\vim.bat
+unix2dos C:\Dev\Bin\vim.bat
+git status
+vim C:\Dev\Bin\vim.bat
+vim test
+less init.vim 
+:e plugins.vim 
+vim plugins.vim 
+vim
+git push
+vim
+exit
+exit
+clink autorun show
+clink install
+clink help
+clink autorun --help
+clink autorun uninstall
+cd Projects\
+cd dot_vim
+ls
+set LANG=en_GB.UTF-8
+set LC_ALL=en_GB.UTF-8
+df
+df -h
+df -h /c/
+/c/Dev/vim/vim.exe
+c:\dev\vim\vim74\vim.exe
+gvim
+git diff
+git checkout init.vim
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+git diff
+git checkout init.vim
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+set term
+set term=xterm-256color
+cd Projects\
+cd dot_vim
+gvim init.vim 
+vim keybinds.vim 
+chcp 65001
+vim
+clink autorun show
+clink install
+clink help
+clink autorun --help
+clink autorun uninstall
+cd Projects\
+cd dot_vim
+ls
+set LANG=en_GB.UTF-8
+set LC_ALL=en_GB.UTF-8
+df
+df -h
+df -h /c/
+/c/Dev/vim/vim.exe
+c:\dev\vim\vim74\vim.exe
+gvim
+git diff
+git checkout init.vim
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+git checkout init.vim
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+set 
+vim init.vim 
+set term
+set term=xterm-256color
+chcp 65001
+cd Projects\
+cd dot_vim
+vim ansi-term-colors.txt 
+ls /
+ls %userpath%
+ps %homepath%
+ls %homepath%
+cd ../..
+git status
+git diff
+git add init.vim 
+git commit
+vim
+cd plugins\
+cd vim-airline-themes\
+ls plugin\
+ls autoload\
+ls autoload\airline\
+ls autoload\airline\themes\
+less ansi-term-colors.txt 
+vim README.markdown 
+gvim ..\..\init.vim 
+less README.markdown 
+cd jellybeans.vim\
+cd colors\
+vim jellybeans.vim 
+cd ..\..
+cd ..
+ls
+gvim init.vim 
+vim keybinds.vim 
+cd ..
+gvim init.vim 
+vim
+cd Projects\
+cd dot_vim
+ls
+vim keybinds.vim 
+exit
+cd jellybeans.vim\
+cd colors\
+vim jellybeans.vim 
+cd ..\..
+cd ..
+gvim init.vim 
+cd Projects\
+cd dot_vim\
+ls \
+ls /
+ls
+gvim keybinds.vim 
+vim init.vim 
+vim keybinds.vim 
+exit
+vim keybinds.vim 
+exit
+cd Projects\
+ls
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+set term
+set term=xterm-256color
+cd Projects\
+cd dot_vim
+gvim init.vim 
+vim keybinds.vim 
+chcp 65001
+vim
+clink autorun show
+clink install
+clink help
+clink autorun --help
+clink autorun uninstall
+cd Projects\
+cd dot_vim
+ls
+set LANG=en_GB.UTF-8
+set LC_ALL=en_GB.UTF-8
+df
+df -h
+df -h /c/
+/c/Dev/vim/vim.exe
+c:\dev\vim\vim74\vim.exe
+gvim
+git diff
+git checkout init.vim
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+git checkout init.vim
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+set 
+vim init.vim 
+set term=xterm-256color
+chcp 65001
+cd Projects\
+cd dot_vim
+vim ansi-term-colors.txt 
+ls /
+ls %userpath%
+ps %homepath%
+ls %homepath%
+git status
+git diff
+git add init.vim 
+git commit
+vim
+cd vim-airline-themes\
+ls plugin\
+ls autoload\
+ls autoload\airline\
+ls autoload\airline\themes\
+less ansi-term-colors.txt 
+vim README.markdown 
+gvim ..\..\init.vim 
+less README.markdown 
+cd jellybeans.vim\
+cd colors\
+vim jellybeans.vim 
+cd ..\..
+cd ..
+ls
+gvim init.vim 
+vim keybinds.vim 
+cd ..
+gvim init.vim 
+cd Projects\
+ls
+vim keybinds.vim 
+exit
+cd Projects\
+cd dot_vim\
+ls \
+ls /
+ls
+gvim keybinds.vim 
+vim keybinds.vim 
+exit
+vim keybinds.vim 
+cd Projects\
+cd dot_vim
+vim plugins
+vim plugins.vim 
+less jellybeans.vim 
+cd ../..
+find . | grep jelly
+cd \Dev\
+cd vim
+cd vim74\
+pt -l . jellyb
+pt -l .
+pt -l . | -i jelly
+cd vimfiles\
+pt -l . | grep -i jelly
+cd jellybeans.vim\
+vim jellybeans.vim 
+cd vim-hybrid\
+vim hybrid.vim 
+cd ..\..
+cd ..
+vim init.vim 
+cd plugins\
+cd vim-lucius\
+vim README.md 
+cd colors\
+gvim ..\..\..\init.vim 
+set TERM=xterm-256color
+export TERM=xterm
+set TERM=xterm
+vim ..\..\..\keybinds.vim 
+vim ..\..\..\init.vim 
+edit lucius.vim 
+ls -a
+gvim lucius.vim 
+pushd C:\Users\Lori\Projects\dot_vim\
+gvim init.vim 
+ls
+set term
+set term=cygwin
+vim
+pushd C:\Users\Lori\Projects\dot_vim\ && gvim init.vim && pushd
+popd
+pushd C:\Users\Lori\Projects\dot_vim\ && gvim init.vim && popd
+vim \Dev\vim\vimfiles\init.vim 
+vim lucius.vim 
+exit
+pushd C:\Users\Lori\Projects\dot_vim\ && gvim init.vim && popd
+vim \Dev\vim\vimfiles\init.vim 
+vim lucius.vim 
+cd Projects\
+cd dot_vim
+ls
+vim init.vim 
+vim keybinds.vim 
+exit
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+set term
+set term=xterm-256color
+cd Projects\
+cd dot_vim
+gvim init.vim 
+vim keybinds.vim 
+chcp 65001
+vim
+clink autorun show
+clink install
+clink help
+clink autorun --help
+clink autorun uninstall
+cd Projects\
+cd dot_vim
+ls
+set LANG=en_GB.UTF-8
+set LC_ALL=en_GB.UTF-8
+df
+df -h
+df -h /c/
+/c/Dev/vim/vim.exe
+c:\dev\vim\vim74\vim.exe
+git diff
+git checkout init.vim
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+git checkout init.vim
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+gvim init.vim 
+vim
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+ls
+set 
+vim init.vim 
+ansicon /c/Dev/vim/vim74/vim.exe init.vim 
+ls /c/Dev/vim/vim74
+ansicon C:\Dev\vim\vim74\vim.exe init.vim 
+cd Projects\dot_vim
+set 
+vim init.vim 
+set term=xterm-256color
+chcp 65001
+cd Projects\
+cd dot_vim
+vim ansi-term-colors.txt 
+ls /
+ls %userpath%
+ps %homepath%
+ls %homepath%
+git diff
+git add init.vim 
+vim
+cd vim-airline-themes\
+ls plugin\
+ls autoload\
+ls autoload\airline\
+ls autoload\airline\themes\
+less ansi-term-colors.txt 
+vim README.markdown 
+gvim ..\..\init.vim 
+less README.markdown 
+cd jellybeans.vim\
+cd colors\
+vim jellybeans.vim 
+cd ..\..
+cd ..
+ls
+gvim init.vim 
+vim keybinds.vim 
+cd ..
+gvim init.vim 
+cd Projects\
+ls
+vim keybinds.vim 
+exit
+cd Projects\
+cd dot_vim\
+ls \
+ls /
+ls
+gvim keybinds.vim 
+vim keybinds.vim 
+exit
+vim keybinds.vim 
+cd Projects\
+cd dot_vim
+vim plugins
+vim plugins.vim 
+less jellybeans.vim 
+cd ../..
+find . | grep jelly
+cd \Dev\
+cd vim
+cd vim74\
+pt -l . jellyb
+pt -l .
+pt -l . | -i jelly
+cd vimfiles\
+pt -l . | grep -i jelly
+cd jellybeans.vim\
+vim jellybeans.vim 
+cd vim-hybrid\
+vim hybrid.vim 
+cd ..\..
+cd ..
+vim init.vim 
+cd plugins\
+cd vim-lucius\
+vim README.md 
+cd colors\
+gvim ..\..\..\init.vim 
+set TERM=xterm-256color
+export TERM=xterm
+set TERM=xterm
+vim ..\..\..\keybinds.vim 
+vim ..\..\..\init.vim 
+edit lucius.vim 
+ls -a
+gvim lucius.vim 
+pushd C:\Users\Lori\Projects\dot_vim\
+ls
+set term
+set term=cygwin
+pushd C:\Users\Lori\Projects\dot_vim\ && gvim init.vim && pushd
+popd
+pushd C:\Users\Lori\Projects\dot_vim\ && gvim init.vim && popd
+vim \Dev\vim\vimfiles\init.vim 
+vim lucius.vim 
+exit
+pushd C:\Users\Lori\Projects\dot_vim\ && gvim init.vim && popd
+vim \Dev\vim\vimfiles\init.vim 
+vim lucius.vim 
+cd Projects\
+ls
+cd dot_vim
+gvim init.vim 
+xterm init.vim 
+:e init.vim 
+vim, init.vim 
+vim keybinds.vim 
+vim init.vim 
+gvim
+git status
+git add *.vim
+git commit
+stty
+stty erase '^?'
+vim
+xit
+exit
+xterm init.vim 
+:e init.vim 
+vim, init.vim 
+vim init.vim 
+gvim
+git status
+git add *.vim
+git commit
+stty
+stty erase '^?'
+xit
+exit
+cd Projects\
+cd dot_vim
+ls
+gvim init.vim 
+set term
+set TERM=xterm
+vim keybinds.vim 
+vim
+exit
+xterm init.vim 
+:e init.vim 
+vim, init.vim 
+gvim
+git status
+git add *.vim
+git commit
+stty
+stty erase '^?'
+xit
+gvim init.vim 
+set term
+set TERM=xterm
+cd Projects\
+ls
+cd dot_vim
+vim
+vim keybinds.vim 
+gvim keybinds.vim 
+vim plugins
+vim plugins.vim 
+gvim plugins
+vim init.vim 
+exit
+gvim plugins
+exit
+cd Projects\
+cd dot_vim
+ls
+vim init.vim 
+clear
+gvim plugins
+vim init.vim 
+exit
+gvim plugins
+exit
+cd Projects\
+cd dot_vim
+clear
+vim init.vim 
+ls
+exit
+gvim plugins
+exit
+cd Projects\
+cd dot_vim
+ls
+vim init.vim 
+clear
+gvim plugins
+vim init.vim 
+exit
+gvim plugins
+ls /tmp
+ls /
+vim
+clear
+rm null 
+cd game_prep
+vim Cargo.toml 
+cd ..\..
+cd Projects\
+cd dot_vim
+vim .gitignore 
+git status
+git add .gitignore 
+git add init.vim 
+git add keybinds.vim 
+git diff origin/master
+vim plugins.vim 
+ls
+gvim init.vim 
+vim init.vim 
+exit
+git add .gitignore 
+git add init.vim 
+git add keybinds.vim 
+git diff origin/master
+vim plugins.vim 
+cd Projects\
+cd dot_vim
+ls
+vim init.vim 
+gvim init.vim 
+git add plugins.vim keybinds.vim init.vim 
+git status
+git commit -m "Added a *ton* of stuff.. heh"
+git push
+exit
+ls
+ls
+vim
+vim plugins.vim 
+cd Projects\
+cd dot_vim
+ls
+vim init.vim 
+gvim init.vim 
+git add plugins.vim keybinds.vim init.vim 
+git status
+git commit -m "Added a *ton* of stuff.. heh"
+git push
+exit
+ls
+far
+cd ven
+cd Cmder\
+cd vendor\
+unix2dos clink
+unix2dos clink.bat
+unix2dos init.bat
+vim init.bat 
+cd \dev\
+cd vim
+git clone git@gitlab.com:lholden/dot_vim.git vimfiles
+cp vimfiles\dot_vimrc _vimrc
+ls
+mv _vimrc .vimrc
+vim
+which vim
+echo $PATH
+set path
+set path
+mv _vimrc .vimrc
+which vim
+echo $PATH
+set path
+set path
+gvim
+cd \dev\vim\
+cd vimfiles\
+rm -r plugins
+git pull
+git checkout plugins
+ls
+ls plugins
+ls plugins\ -a
+vim
+echo $PATH
+set path
+set path
+mv _vimrc .vimrc
+which vim
+echo $PATH
+set path
+set path
+cd \dev\vim\
+cd vimfiles\
+rm -r plugins
+git pull
+git checkout plugins
+ls plugins
+ls plugins\ -a
+cd \Dev\Python27\
+ls -la
+cd \Dev\Python34\
+mklink python3.exe python.exe
+mklink python3.4.exe python.exe
+mklink pythonw3.exe python.exe
+mklink pythonw3.4.exe python.exe
+cd \
+python3
+which python3
+cd Dev
+cd Vim\vimfiles\
+cd plugins\
+cd vimproc.vim\
+make -f make_mingw64.mak 
+make
+vim
+gvim
+ls
+gvim src\ptytty.c
+vim src\ptytty.c
+cd ..\..
+vim init.vim 
+exit
+cd \Dev\Python34\
+mklink python3.exe python.exe
+mklink python3.4.exe python.exe
+mklink pythonw3.exe python.exe
+mklink pythonw3.4.exe python.exe
+cd \
+python3
+which python3
+cd Dev
+cd Vim\vimfiles\
+cd plugins\
+cd vimproc.vim\
+make -f make_mingw64.mak 
+make
+gvim src\ptytty.c
+vim src\ptytty.c
+cd ..\..
+vim init.vim 
+cd dot_vim
+git status
+cd ..
+rm -r dot_vim
+mv \dev\Vim\vimfiles .
+cd \Dev\Vim\
+mklink .vimrc vimfiles\dot_vimrc
+ls -a
+ls vimfiles
+ls vimfiles\
+mklink /d vimfiles C:\Users\Lori\Projects\dot_vim
+dir
+dir /?
+ls /N
+dir /N
+dir /-D
+rm .vimrc
+rm vimfiles
+mv ~\Projects\dot_vim .
+mv ~/Projects/dot_vim .
+cd %homepath%
+cd Projects\
+ls
+mv vimfiles\ dot_vim
+cd \dev\vim
+ln -s C:\Users\Lori\Projects\dot_vim vimfiles
+ls -la
+ln -s vimfiles\dot_vimrc .vimrc
+vim
+gvim
+exit
+ls -la
+ln -s vimfiles\dot_vimrc .vimrc
+set term
+cd Projects\dot_vim\
+l
+ls
+vim init.vim 
+gvim
+vim
+exit
+exit
+exit
+gvim
+exit
+gvim
+cd \dev\vim
+cd vim74
+ls
+vim start_vim.bat
+set HOMEPATH
+exit
+gvim
+exit
+cd \dev\vim
+cd vim74
+vim start_vim.bat
+set HOMEPATH
+exit
+cd "\dev\vim\vimfiles
+vim init.vim 
+set hostname
+set
+set userdomain
+gvim
+git diff init.vim
+git add init.vim
+git config --global user.email "email@loriholden.com"
+git config --global user.name "Lori Holden"
+git commit
+git push
+git config --global push.default simple
+cd %homepath%
+set home
+cd %home
+cd %home%
+cd Projects\
+cd shared
+git status
+ls
