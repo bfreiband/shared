@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2016-02-22 21:23:07" build="160222">
+		<key name=".Vanilla" modified="2016-02-23 01:19:45" build="160222">
 			<value name="ColorTable00" type="dword" data="00000000"/>
 			<value name="ColorTable01" type="dword" data="00c17857"/>
 			<value name="ColorTable02" type="dword" data="0067a996"/>
@@ -192,7 +192,7 @@
 			<value name="SafeFarCloseMacro" type="string" data=""/>
 			<value name="FARuseASCIIsort" type="hex" data="00"/>
 			<value name="ShellNoZoneCheck" type="hex" data="00"/>
-			<value name="FixAltOnAltTab" type="hex" data="00"/>
+			<value name="FixAltOnAltTab" type="hex" data="01"/>
 			<value name="DisableMouse" type="hex" data="00"/>
 			<value name="RSelectionFix" type="hex" data="01"/>
 			<value name="MouseSkipActivation" type="hex" data="01"/>
@@ -483,27 +483,27 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2016-02-22 21:23:07" build="160222">
+			<key name="Tasks" modified="2016-02-23 01:19:45" build="160222">
 				<value name="Count" type="long" data="4"/>
-				<key name="Task1" modified="2016-02-22 21:23:07" build="160222">
+				<key name="Task1" modified="2016-02-23 01:26:27" build="160222">
 					<value name="Name" type="string" data="{cmd}"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
-					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init-lori.bat&quot;  -new_console:d:%USERPROFILE%"/>
+					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console:d:%USERPROFILE%"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task2" modified="2016-02-22 21:23:07" build="160222">
+				<key name="Task2" modified="2016-02-23 01:26:27" build="160222">
 					<value name="Name" type="string" data="{cmd as Admin}"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
-					<value name="Cmd1" type="string" data="*cmd /k &quot;%ConEmuDir%\..\init-lori.bat&quot;  -new_console:d:%USERPROFILE%"/>
+					<value name="Cmd1" type="string" data="*cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console:d:%USERPROFILE%"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task3" modified="2016-02-22 21:23:08" build="160222">
+				<key name="Task3" modified="2016-02-23 01:26:27" build="160222">
 					<value name="Name" type="string" data="{PowerShell}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
@@ -512,7 +512,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task4" modified="2016-02-22 21:23:08" build="160222">
+				<key name="Task4" modified="2016-02-23 01:26:27" build="160222">
 					<value name="Name" type="string" data="{PowerShell as Admin}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data="/icon &quot;%CMDER_ROOT%\cmder.exe&quot;"/>
@@ -524,11 +524,11 @@
 				</key>
 			</key>
 
-			<key name="Apps" modified="2016-02-22 21:23:08" build="160222">
+			<key name="Apps" modified="2016-02-23 01:26:27" build="160222">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2016-02-22 21:23:08" build="160222">
-				<key name="Palette1" modified="2016-02-22 21:23:08" build="160222">
+			<key name="Colors" modified="2016-02-23 01:26:27" build="160222">
+				<key name="Palette1" modified="2016-02-23 01:26:27" build="160222">
 					<value name="Name" type="string" data="Jellybeans"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -611,7 +611,7 @@
 					<value name="ColorTable30" type="dword" data="0000ffff"/>
 					<value name="ColorTable31" type="dword" data="00ffffff"/>
 				</key>
-				<key name="Palette2" modified="2016-02-22 21:23:08" build="160222">
+				<key name="Palette2" modified="2016-02-23 01:26:27" build="160222">
 					<value name="Name" type="string" data="Lori"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -652,7 +652,7 @@
 					<value name="ColorTable30" type="dword" data="0000ffff"/>
 					<value name="ColorTable31" type="dword" data="00ffffff"/>
 				</key>
-				<key name="Palette3" modified="2016-02-22 21:23:08" build="160222">
+				<key name="Palette3" modified="2016-02-23 01:26:27" build="160222">
 					<value name="Name" type="string" data="Monokai"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -752,7 +752,7 @@
 			<value name="StatusBar.Hide.Dpi" type="hex" data="00"/>
 			<value name="TabFlashChanged" type="long" data="8"/>
 			<value name="TabModifiedSuffix" type="string" data="[*]"/>
-			<key name="HotKeys" modified="2016-02-22 21:23:07" build="160222">
+			<key name="HotKeys" modified="2016-02-23 01:19:45" build="160222">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -947,8 +947,81 @@
 			<value name="Update.InetToolCmd" type="string" data=""/>
 			<value name="ProcessCtrlZ" type="hex" data="00"/>
 			<value name="SuppressBells" type="hex" data="01"/>
-			<value name="LastMonitor" type="string" data="62,0,1920,1080"/>
+			<value name="LastMonitor" type="string" data="0,38,1920,1080"/>
 			<value name="Anti-aliasing2" type="hex" data="00"/>
+		</key>
+		<key name="shell" modified="2016-02-23 01:17:38" build="160222">
+			<value name="StartType" type="hex" data="02"/>
+			<value name="CmdLine" type="string" data=""/>
+			<value name="StartTasksFile" type="string" data=""/>
+			<value name="StartTasksName" type="string" data="{Shells::cmd (Admin)}"/>
+			<value name="StartFarFolders" type="hex" data="00"/>
+			<value name="StartFarEditors" type="hex" data="00"/>
+			<value name="ColorTable00" type="dword" data="00362b00"/>
+			<value name="ColorTable01" type="dword" data="00423607"/>
+			<value name="ColorTable02" type="dword" data="00808000"/>
+			<value name="ColorTable03" type="dword" data="00a48231"/>
+			<value name="ColorTable04" type="dword" data="00164bcb"/>
+			<value name="ColorTable05" type="dword" data="00b6369c"/>
+			<value name="ColorTable06" type="dword" data="00009985"/>
+			<value name="ColorTable07" type="dword" data="00d5e8ee"/>
+			<value name="ColorTable08" type="dword" data="00a1a193"/>
+			<value name="ColorTable09" type="dword" data="00d28b26"/>
+			<value name="ColorTable10" type="dword" data="0036b64f"/>
+			<value name="ColorTable11" type="dword" data="0098a12a"/>
+			<value name="ColorTable12" type="dword" data="002f32dc"/>
+			<value name="ColorTable13" type="dword" data="008236d3"/>
+			<value name="ColorTable14" type="dword" data="000089b5"/>
+			<value name="ColorTable15" type="dword" data="00e3f6fd"/>
+			<value name="ColorTable16" type="dword" data="00000000"/>
+			<value name="ColorTable17" type="dword" data="00800000"/>
+			<value name="ColorTable18" type="dword" data="00008000"/>
+			<value name="ColorTable19" type="dword" data="00808000"/>
+			<value name="ColorTable20" type="dword" data="00000080"/>
+			<value name="ColorTable21" type="dword" data="00800080"/>
+			<value name="ColorTable22" type="dword" data="00008080"/>
+			<value name="ColorTable23" type="dword" data="00c0c0c0"/>
+			<value name="ColorTable24" type="dword" data="00808080"/>
+			<value name="ColorTable25" type="dword" data="00ff0000"/>
+			<value name="ColorTable26" type="dword" data="0000ff00"/>
+			<value name="ColorTable27" type="dword" data="00ffff00"/>
+			<value name="ColorTable28" type="dword" data="000000ff"/>
+			<value name="ColorTable29" type="dword" data="00ff00ff"/>
+			<value name="ColorTable30" type="dword" data="0000ffff"/>
+			<value name="ColorTable31" type="dword" data="00ffffff"/>
+			<value name="ExtendColors" type="hex" data="00"/>
+			<value name="ExtendColorIdx" type="hex" data="0e"/>
+			<value name="TextColorIdx" type="hex" data="10"/>
+			<value name="BackColorIdx" type="hex" data="10"/>
+			<value name="PopTextColorIdx" type="hex" data="10"/>
+			<value name="PopBackColorIdx" type="hex" data="10"/>
+			<value name="SingleInstance" type="hex" data="00"/>
+			<value name="QuakeStyle" type="hex" data="00"/>
+			<value name="KeyboardHooks" type="hex" data="01"/>
+			<value name="UseInjects" type="hex" data="01"/>
+			<value name="Update.CheckOnStartup" type="hex" data="00"/>
+			<value name="Update.CheckHourly" type="hex" data="00"/>
+			<value name="Update.ConfirmDownload" type="hex" data="01"/>
+			<value name="Update.UseBuilds" type="hex" data="02"/>
+			<value name="FontUseDpi" type="hex" data="01"/>
+			<value name="FontUseUnits" type="hex" data="01"/>
+			<value name="FontSize" type="ulong" data="9"/>
+			<value name="StatusFontHeight" type="long" data="12"/>
+			<value name="TabFontHeight" type="long" data="13"/>
+			<key name="HotKeys" modified="2016-02-23 01:17:19" build="160222">
+				<value name="MinimizeRestore" type="dword" data="000011c0"/>
+			</key>
+			<value name="UseCurrentSizePos" type="hex" data="01"/>
+			<value name="AutoSaveSizePos" type="hex" data="01"/>
+			<value name="Cascaded" type="hex" data="01"/>
+			<value name="IntegralSize" type="hex" data="00"/>
+			<value name="WindowMode" type="dword" data="0000051f"/>
+			<value name="ConWnd X" type="long" data="0"/>
+			<value name="ConWnd Y" type="long" data="605"/>
+			<value name="LastMonitor" type="string" data="0,38,1920,1080"/>
+			<value name="ConWnd Width" type="dword" data="000000b9"/>
+			<value name="ConWnd Height" type="dword" data="00000005"/>
+			<value name="16bit Height" type="ulong" data="0"/>
 		</key>
 	</key>
 </key>
