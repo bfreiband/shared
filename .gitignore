@@ -3,6 +3,7 @@ Cmder/*
 Cmder/**/*
 !Cmder/config/*
 Cmder/config/.history
+Cmder/vendor/*
 !Cmder/vendor/conemu-maximus5/testing
 !Cmder/vendor/conemu-maximus5/ConEmu.xml
 !Cmder/vendor/init-lori.bat
