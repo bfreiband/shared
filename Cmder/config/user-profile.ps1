@@ -16,9 +16,8 @@ Ensure-Module TabExpansionPlusPlus
 Ensure-Module posh-alias
 Ensure-Module PSColor
 
+Set-PSReadlineOption -EditMode Emacs -HistoryNoDuplicates
 
-
-Set-PSReadlineOption -EditMode Emacs
 #
 # Environment
 #
