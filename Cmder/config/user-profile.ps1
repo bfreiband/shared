@@ -1,14 +1,26 @@
 ﻿[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-$MSYS64_BIN = "C:\Dev\msys64\usr\bin"
+#
+# Modules
+#
+function Ensure-Module {
+  if (-not (Get-Module -list $args[0])) {
+    Find-Module $args[0] | Install-Module
+  }
 
-Import-Module PSReadLine
+  Import-Module $args[0]
+}
 
-Set-PSReadlineOption -EditMode Emacs
+Ensure-Module PSReadLine
+Ensure-Module TabExpansionPlusPlus
+Ensure-Module posh-alias
+Ensure-Module PSColor
 
-Remove-Item alias:ls
-# Work in progress
-function ls { iex "${MSYS64_BIN}\ls -G --group-directories-first --color=auto -I NTUSER.DAT\* -I ntuser.\* -I desktop.ini ${args}" }
+Set-PSReadlineOption -EditMode Emacs -HistoryNoDuplicates
+
+#
+# Environment
+# 
 
 $Env:LANG = "en_US.UTF-8"
 $Env:LC_ALL = "en_US.UTF-8"
@@ -18,6 +30,24 @@ $Env:TERM = "xterm"
 $Env:GO15VENDOREXPERIMENT = "1"
 $Env:GOPATH = "C:\Users\Lori\Projects\gocode"
 $Env:Path = "$Env:GOPATH\bin;$Env:Path"
+
+$MSYS64_BIN = "C:\Dev\msys64\usr\bin"
+$VIM_BIN = "C:\Dev\vim\vim74"
+
+#
+# General config stuff
+#
+Add-Alias alias "Add-Alias"
+
+Remove-Item alias:ls
+Add-Alias ls "${MSYS64_BIN}\ls -G --group-directories-first --color=auto -I NTUSER.DAT\* -I ntuser.\* -I desktop.ini"
+Add-Alias update-core "${MSYS64_BIN}\bash ${MSYS64_BIN}\update-core"
+Add-Alias alias "Add-Alias"
+
+function vim {
+  iex "${VIM_BIN}\vim ${args}"
+  Write-Output ""
+}
 
 function global:prompt {
     $realLASTEXITCODE = $LASTEXITCODE
