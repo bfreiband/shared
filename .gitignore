@@ -1,10 +1,9 @@
-*.swp
 Cmder/*
-Cmder/**/*
-!Cmder/config/*
-Cmder/config/*.swp
-Cmder/config/.history
 Cmder/vendor/*
+!Cmder/config
 !Cmder/vendor/conemu-maximus5/testing
 !Cmder/vendor/conemu-maximus5/ConEmu.xml
 !Cmder/vendor/profile-msys.ps1
+
+*.swp
+.history
