@@ -1,40 +1,46 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
+$env:PSModulePath = "$env:PSModulePath;$Env:CMDER_ROOT\config\modules"
+
 #
 # Modules
 #
-function Find-And-Install-Module {
+function Ensure-Module-Installed {
   if (-not (Get-Module -list $args[0])) {
-    Find-Module $args[0] | Install-Module
+    Install-Module $args[0] -DoNotImport
   }
 }
-function Ensure-Module {
-  Find-And-Install-Module $args[0]
 
+function Ensure-Module-Installed-By-Url {
+  if (-not (Get-Module -list $args[0])) {
+    Install-Module -ModuleUrl $args[1] -DoNotImport
+  }
+}
+
+function Ensure-Module {
+  Ensure-Module-Installed $args[0]
   Import-Module $args[0]
 }
 
 function Ensure-Module-By-Url {
-  if (-not (Get-Module -list $args[0])) {
-    Install-Module -ModuleUrl $args[1]
-  }
-
+  Ensure-Module-Installed-By-Url $args[0] $args[1]
   Import-Module $args[0]
 }
 
+Import-Module Get-ChildItemColored
+
+Ensure-Module Posh-Git
 Ensure-Module PSReadLine
-Ensure-Module TabExpansionPlusPlus
-Ensure-Module posh-alias
 Ensure-Module PSColor
-Ensure-Module Posh-SSH
+Ensure-Module TabExpansionPlusPlus
 Ensure-Module Invoke-ElevatedCommand
 
-Ensure-Module-By-Url Get-ChildItemColored https://gist.githubusercontent.com/la11111/3922035/raw/20ed19adbd7e0fbc0e69236c4810aa7e414b672a/get-ChildItemColored.psm1
-
-Find-And-Install-Module Pscx
+Remove-Item alias:gpv -Force
+Ensure-Module-Installed Pscx
 Import-Module Pscx -arg $Env:CMDER_ROOT\config\Pscx.UserPreferences.ps1
 
-Set-PSReadlineOption -EditMode Emacs -HistoryNoDuplicates
+Ensure-Module-By-Url Posh-SSH https://github.com/darkoperator/Posh-SSH/zipball/master
+Ensure-Module-By-Url Posh-Alias https://github.com/giggio/posh-alias/zipball/master
 
 #
 # Environment
@@ -82,6 +88,8 @@ function vim {
 #
 # Settings
 # 
+Set-PSReadlineOption -EditMode Emacs -HistoryNoDuplicates
+
 $global:lscolor_dir = "Blue"
 
 function global:prompt {
