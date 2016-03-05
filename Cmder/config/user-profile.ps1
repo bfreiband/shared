@@ -34,6 +34,7 @@ Ensure-Module PSReadLine
 Ensure-Module PSColor
 Ensure-Module TabExpansionPlusPlus
 Ensure-Module Invoke-ElevatedCommand
+Ensure-Module PsUrl
 
 Remove-Item alias:gpv -Force
 Ensure-Module-Installed Pscx
@@ -64,6 +65,7 @@ $VIM_BIN = "C:\Dev\vim\vim74"
 Remove-Item alias:dir
 Remove-Item alias:ls
 Remove-Item alias:ln
+Remove-Item alias:wget
 Add-Alias alias 'Add-Alias'
 Add-Alias ls 'Get-ChildItemColored'
 Add-Alias lsa 'Get-ChildItemColored -Force'
@@ -72,6 +74,7 @@ Add-Alias dira 'Get-ChildItem'
 Add-Alias ln 'New-Symlink'
 Add-Alias df 'get-psdrive -PSProvider FileSystem'
 Add-Alias sudo 'Invoke-ElevatedCommand'
+Add-Alias wget 'Get-WebContent'
 Add-Alias New-File 'New-Item -Type File -Path'
 Add-Alias update-core "${MSYS64_BIN}\bash ${MSYS64_BIN}\update-core"
 
