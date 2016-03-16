@@ -1,10 +1,10 @@
 Cmder/*
-Cmder/vendor/*
 !Cmder/Cmder.bat
 !Cmder/config
-!Cmder/modules
 Cmder/config/Readme.md
-!Cmder/vendor/conemu-maximus5/ConEmu.xml
+!Cmder/modules
+Cmder/vendor/*
+!Cmder/vendor/ssh-keygen.exe
 
 *.swp
 .history

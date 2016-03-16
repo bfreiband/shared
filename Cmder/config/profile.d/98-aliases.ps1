@@ -14,3 +14,4 @@ Add-Alias sudo 'Invoke-ElevatedCommand'
 Add-Alias wget 'Get-WebContent'
 Add-Alias New-File 'New-Item -Type File -Path'
 Add-Alias more 'less'
+Add-Alias ssh-keygen "$ENV:CMDER_ROOT\vendor\ssh-keygen.exe"
