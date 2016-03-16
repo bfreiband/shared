@@ -1,9 +1,10 @@
 Cmder/*
 Cmder/vendor/*
+!Cmder/Cmder.bat
 !Cmder/config
-!Cmder/vendor/conemu-maximus5/testing
+!Cmder/modules
+Cmder/config/Readme.md
 !Cmder/vendor/conemu-maximus5/ConEmu.xml
-!Cmder/vendor/profile-msys.ps1
 
 *.swp
 .history

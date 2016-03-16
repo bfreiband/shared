@@ -1,9 +1,0 @@
-e.=explorer .
-gl=git log --oneline --all --graph --decorate  $*
-ls=ls -G --group-directories-first --color=auto -I NTUSER.DAT\* -I ntuser.\* -I desktop.ini $*
-pwd=cd
-clear=cls
-history=cat %CMDER_ROOT%\config\.history
-unalias=alias /d $1
-dir=dir /D /OG $*  
-dirl=dir /OG $*  
