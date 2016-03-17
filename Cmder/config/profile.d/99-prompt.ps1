@@ -4,7 +4,7 @@ function global:prompt {
   Write-Host "( " -NoNewLine
   Write-Host $([Environment]::UserName) $([Environment]::UserDomainName) -Separator "@" -NoNewLine
   Write-Host " " -NoNewLine
-  Write-Host $pwd.ProviderPath -NoNewLine -ForegroundColor Blue
+  Write-Host $($pwd.ProviderPath -replace "^$($HOME -replace '\\','\\')", "~") -NoNewLine -ForegroundColor Blue
   if ($GitFound) {
     CheckGit($pwd.ProviderPath)
   }
