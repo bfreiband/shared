@@ -5,7 +5,7 @@ declare GIT_PS1_SHOWDIRTYSTATE=1
 #declare GIT_PS1_SHOWUPSTREAM="auto"
 
 declare COLOR_PATH="\[\e[34;1m\]"
-declare COLOR_EXTRAS="\[\e[35m\]"
+declare COLOR_EXTRAS="\[\e[1;36m\]"
 declare COLOR_HOST=""
 declare COLOR_USER=""
 declare COLOR_ROOT="\[\e[1;31;40m\]"
