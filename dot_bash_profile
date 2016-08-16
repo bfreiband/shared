@@ -27,6 +27,7 @@ shopt -s checkwinsize
 # Build up the path
 [[ -d "$HOME/.local/bin" ]] && PATH=$HOME/.local/bin:$PATH
 [[ -d "$HOME/.cargo/bin" ]] && PATH=$HOME/.cargo/bin:$PATH
+[[ -d "$HOME/.local/heroku-client/bin" ]] && PATH=$HOME/.local/heroku-client/bin:$PATH
 
 # Make sure our local/lib is in LD_LIBRARY_PATH
 [[ -d "$HOME/.local/lib" ]] && LD_LIBRARY_PATH=$HOME/.local/lib:$LD_LIBRARY_PATH
