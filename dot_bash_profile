@@ -14,6 +14,8 @@ fi
 export CLICOLOR=1
 export EDITOR="vim"
 export HISTCONTROL=ignoredups:ignorespace
+export CARGO_INCREMENTAL=1
+export WINEDEBUG=fixme-all
 unset command_not_found_handle
 
 stty sane
