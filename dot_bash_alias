@@ -8,3 +8,7 @@ if [[ -n "$LS_COLORS"  ]]; then
   hash viman 2> /dev/null && alias man='viman'
 
 fi
+
+alias rgp='rg -g '!/public''
+alias wstart='watchexec -r -w . -w ../corelib -- npm start'
+function npm-do { (PATH=$(npm bin):$PATH; eval $@;) }
