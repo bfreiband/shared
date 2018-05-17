@@ -7,6 +7,10 @@ if [[ -s "${HOME}/.git-prompt.sh" ]]; then
   source "${HOME}/.git-prompt.sh"
 fi
 
+if [[ -s "${HOME}/.git-completion.bash" ]]; then
+  source "${HOME}/.git-completion.bash"
+fi
+
 if [[ -x `which dircolors 2> /dev/null`  ]]; then
   ([[ -s "$HOME/.dircolors"  ]] && eval "$(dircolors -b $HOME/.dircolors)") || eval "$(dircolors -b)"
 fi
