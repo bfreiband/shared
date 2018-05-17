@@ -10,3 +10,4 @@ if [[ -n "$LS_COLORS"  ]]; then
 fi
 
 alias la='ls -a'
+alias gla="git log --all --oneline --decorate --graph"
