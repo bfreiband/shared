@@ -1,4 +1,4 @@
-### My shared terminal files
+## My shared terminal files
 These are the terminal files I share between all of my computers. (zsh, aliases, etc)
 
 If you are looking for my vim configuration, please see https://github.com/bfreiband/dot_vim
